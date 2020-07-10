@@ -1,10 +1,12 @@
 {
   "name": "cascadiajs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package for a 2020 CascadiaJS talk",
-  "main": "dist/index.js",
+  "bin": {
+    "cascadiajs": "dist/index.js"
+  },
   "scripts": {
-    "prepare": "tsc",
+    "prepare": "tsc && chmod 0766 dist/index.js",
     "lint": "prettier --check src",
     "pretest": "npm run lint",
     "test": "echo \"You can't fail a test if you don't have any!\""
