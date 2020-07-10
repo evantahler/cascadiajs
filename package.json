@@ -22,5 +22,10 @@
   "devDependencies": {
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evantahler/cascadiajs.git"
+  },
+  "homepage": "http://www.evantahler.com"
 }
