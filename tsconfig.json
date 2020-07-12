@@ -2,8 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "module": "commonjs",
-    "target": "es2018",
-    "sourceMap": true
+    "target": "es2018"
   },
   "include": ["./src/**/*"]
 }
