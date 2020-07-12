@@ -15,3 +15,7 @@ npx cascadiajs
 ```bash
 npx cascadiajs@next
 ```
+
+---
+
+![demo](https://raw.githubusercontent.com/evantahler/cascadiajs/master/images/demo.png)
